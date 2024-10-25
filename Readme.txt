@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Landing page for Scanalyze!
 
-Template Name: Bootslander
-Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Product Design and Developement - Fall 2024
