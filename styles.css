@@ -1,0 +1,152 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #004f91; /* Dark Blue from the logo */
+    padding: 50px 0;
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #4caf50; /* Green from the logo */
+    animation: fadeInLeft 1s ease;
+}
+
+.text-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #d6e9ff;
+}
+
+.hero-image img {
+    width: 300px;
+    animation: fadeInRight 1s ease;
+}
+
+/* CTA and Lead Magnet Section */
+.cta-lead-magnet {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.cta-text, .lead-magnet {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #4caf50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.customer-name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Benefits Section */
+.benefits {
+    display: flex;               /* Utiliza flexbox para la disposición horizontal */
+    justify-content: space-around; /* Espacio entre los elementos */
+    margin: 40px 0;
+    padding: 20px 0;
+}
+
+.benefit {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex: 1;                   /* Cada elemento tomará un espacio proporcional */
+    margin: 0 10px;            /* Espaciado lateral entre cada beneficio */
+    transition: transform 0.3s;
+}
+
+.benefit:hover {
+    transform: translateY(-10px);
+}
+
+.benefit i {
+    font-size: 2em;
+    color: #004f91; /* Azul oscuro */
+    margin-bottom: 10px;
+}
+
+.container-benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es pequeña */
+}
+
+/* CTA Footer Section */
+.cta-footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cta-footer a {
+    color: #004f91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
